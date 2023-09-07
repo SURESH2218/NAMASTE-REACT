@@ -115,7 +115,7 @@ const RestCard = ({ resdata }) => {
         <h3>Suresh Foods</h3>
         <h4>Biryani, South India, Asian</h4>
         {/* <h5>{resdata.address.street.join(", ")}</h5> */}
-        <h5>{resdata.title}</h5>
+        <h6>{resdata.title}</h6>
       </div>
     </>
   );
